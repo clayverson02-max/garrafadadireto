@@ -83,17 +83,20 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         content:
           "Receita tradicional brasileira com Pata-de-Vaca, Jambolão, Carqueja, Canela e Insulina Vegetal. Auxilia no controle natural da glicose. De R$ 29,90 por R$ 14,99.",
       },
-      { property: "og:title", content: "Garrafada Natural para Diabetes" },
+      { property: "og:title", content: "Garrafada Natural para Diabetes — Receita Tradicional por R$ 14,99" },
       {
         property: "og:description",
-        content: "A receita tradicional que está devolvendo qualidade de vida para milhares de pessoas.",
+        content: "Receita tradicional brasileira com Pata-de-Vaca, Jambolão, Carqueja, Canela e Insulina Vegetal. Auxilia no controle natural da glicose. De R$ 29,90 por R$ 14,99.",
       },
       { property: "og:type", content: "product" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Garrafada Natural para Diabetes — Receita Tradicional por R$ 14,99" },
+      { name: "twitter:description", content: "Receita tradicional brasileira com Pata-de-Vaca, Jambolão, Carqueja, Canela e Insulina Vegetal. Auxilia no controle natural da glicose. De R$ 29,90 por R$ 14,99." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a5ac7e00-e70c-466a-b14e-337f7fc96040/id-preview-6d061e59--ebaa0cd2-9a28-4444-851c-89bf8c442faf.lovable.app-1784001188813.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a5ac7e00-e70c-466a-b14e-337f7fc96040/id-preview-6d061e59--ebaa0cd2-9a28-4444-851c-89bf8c442faf.lovable.app-1784001188813.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
-      { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       {
