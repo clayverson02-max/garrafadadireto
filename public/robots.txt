@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://jv-pneus-caucaia.lovable.app/sitemap.xml
